@@ -1,0 +1,44 @@
+/** {
+	box-sizing: border-box;
+}*/
+
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	position:fixed;
+	background: blue;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	display: inline-block;
+}
+
+header, footer {
+	height: auto;
+}
+
+.mainnav {
+}
+
+.mainnav ul {
+	width:inherit;
+	display: flex;
+	justify-content:space-around;
+}
+
+.mainnav ul li {
+}
+
+h1 {
+	margin: 60px 0px 0px 0px;
+	color:green;
+}
+
+#hugecontainer {
+	height: 2000px;
+}

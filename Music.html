@@ -2,8 +2,61 @@
 <html>
 <head>
 	<title>Music</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS Reset -->
+	<link href="assets/styles/CSSFullReset.css" type=text/css rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- Internal Stylesheets -->
+	<link href="assets/styles/CSSLabStyle.css" type=text/css rel="stylesheet">	
 </head>
 <body>
+	<header>
+		<a href="CSSLabDemo.html"><p class="logotext">Logo!</p></a>
+		<div class="afterlogo">
+			<nav class="mainnav">
+				<ul class="navitems">
+					<li><a href="CSSLabDemo.html">Home</a></li>
+					<li><a href="Products.html">Products</a></li>
+					<li><a href="Music.html">Music</a></li>
+					<li><a href="Play.html">Play</a></li>
+					<li><a href="Connect.html">Connect</a></li>
+					<li><form class="search" action="SearchPage.html"><label>Search: </label><input type="text" name="searchfield">
+						<button><img id="searchicon" src="assets/images/search-icon.png"></button></form></li>
+				</ul>
+			</nav>
+			<div class="profilelinks">
+				<a href="#">Log In!</a>
+				<a class="viewcart" href="#">View Cart<img id="carticon" src="assets/images/shopping-cart-icon.svg"></a>
+			</div>
+		</div>
+	</header>
 
+	<main>
+		<h1>Music Page!</h1>
+
+		<p>Some stuff about music!</p>
+	</main>
+
+	<footer>
+		<div class="footernav">
+			<nav class="mainnav">
+				<ul class="navitems">
+					<li><a href="CSSLabDemo.html">Home</a></li>
+					<li><a href="Products.html">Products</a></li>
+					<li><a href="Music.html">Music</a></li>
+					<li><a href="Play.html">Play</a></li>
+					<li><a href="Connect.html">Connect</a></li>
+					<li><form class="search" action="#"><label>Search: </label><input type="text" name="searchfield">
+						<button><img id="searchicon" src="assets/images/search-icon.png"></button></form></li>
+				</ul>
+			</nav>
+		</div>
+	</footer>	
 </body>
 </html>
